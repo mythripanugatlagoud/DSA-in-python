@@ -1,0 +1,44 @@
+ 
+# Creating strings
+str1 = "Hello, World!"
+str2 = 'Python is fun!'
+
+# Accessing characters
+print("Accessing Characters:")
+print("First character of str1:", str1[0])      # Output: H
+print("Last character of str1:", str1[-1])      # Output: !
+print()
+
+# Slicing
+print("Slicing:")
+print("First five characters of str1:", str1[0:5])    # Output: Hello
+print()
+
+# Concatenation
+greet = "Hello, "
+name = "Alice"
+result = greet + name
+print("Concatenation:")
+print(result)       # Output: Hello, Alice
+print()
+
+# Repetition
+print("Repetition:")
+print("Hello " * 3) # Output: Hello Hello Hello 
+print()
+
+# Using string methods
+print("Using String Methods:")
+print("Uppercase of str1:", str1.upper())               # Output: HELLO, WORLD!
+print("Lowercase of str2:", str2.lower())               # Output: python is fun!
+print("Replacing 'World' in str1:", str1.replace("World", "Python")) # Output: Hello, Python!
+print("Index of 'o' in str1:", str1.find("o"))          # Output: 4
+print("Splitting 'a,b,c':", "a,b,c".split(","))         # Output: ['a', 'b', 'c']
+print("Joining list ['a', 'b', 'c'] with ',':", ",".join(['a', 'b', 'c']))  # Output: a,b,c
+print("Stripping whitespace from '   Hello   ':", "   Hello   ".strip())      # Output: Hello
+print()
+
+# Iterating through the string
+print("Iterating Through str1:")
+for char in str1:
+    print(char)  # Print each character in str1 on the same line
