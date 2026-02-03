@@ -6,20 +6,14 @@ The goal of this repository is to:
 - Maintain daily consistency through GitHub commits
 - Prepare step by step for technical interviews
 - Track long-term learning progress clearly
-
----
-
-## Learning Approach
-
-- Brute-force first, then optimization
-- Focus on understanding over memorization
-- One topic at a time
-- Daily small progress instead of rushing
-
+- Interview-ready with strong problem solving skills
+- Get placed in super dream company by 2026 
 ---
 # DSA Progress Tracker
 
 - [x] 01 – Python Basics
+
+---
 
 
 
