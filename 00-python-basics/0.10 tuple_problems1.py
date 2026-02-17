@@ -4,7 +4,7 @@ print("First element:", my_tuple[0])
 print("Last element:", my_tuple[-1])
 
 # add elements to tuple
-n = 4
+n = 4 
 main_tuple = (10, 40)
 for i in range(0,n):
     new_value = input("Enter value: ")
