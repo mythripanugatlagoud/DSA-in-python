@@ -2,7 +2,7 @@
 tuple = (1, 2, 3, 4, 5)
 find= 3
 for i in range(len(tuple)):
-    if (find == tuple[i]):
+    if (find == tuple[i]): 
         print("element index is", i) 
         break
 
