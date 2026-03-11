@@ -12,7 +12,6 @@ The goal of this repository is to:
 # DSA Progress Tracker
 
 - [x] 01 – Python Basics
-
 ---
 
 
