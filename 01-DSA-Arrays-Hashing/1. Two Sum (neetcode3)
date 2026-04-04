@@ -1,1 +1,16 @@
+class Solution(object):
+    def twoSum(self, nums, target):
+        hashMap = {}
 
+        for i in range(0,len(nums)):
+            search = target - nums[i]
+            if search in hashMap:
+                return [i,hashMap[search]]
+            hashMap[nums[i]] = i
+            
+        
+        #brute force algorithm
+        # for i in range(0, len(nums)):
+        #     for j in range(i+1, len(nums)):
+        #         if nums[i] + nums[j] == target:
+        #             return [i,j]
