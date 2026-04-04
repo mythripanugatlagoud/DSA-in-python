@@ -1,1 +1,51 @@
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        s = list(s)
+        t = list(t)
 
+        s.sort()
+        t.sort()
+
+        if len(s) != len(t):
+            return False
+        
+        for i in range(len(s)):
+            if s[i] != t[i]:
+                return False
+        
+        return True
+        # hashMap algorithm
+        # hashMap = {}
+        # for x in t:
+        #     if x in hashMap:
+        #         hashMap[x] = hashMap[x] + 1
+        #     else:
+        #         hashMap[x] = 1
+        
+        # for x in s:
+        #     if x in hashMap:
+        #         hashMap[x] = hashMap[x] - 1
+        #     else:
+        #         return False
+        
+        # for x in hashMap:
+        #     if hashMap[x] != 0:
+        #         return False
+        # return True   
+
+        #brute force algorithm
+        # s = list(s)
+        # t = list(t)
+
+        # if len(s) != len(t):
+        #     return False
+        # for i in range(len(s)):
+        #     flag = 0
+        #     for j in range(len(t)):
+        #         if s[i] == t[j]:
+        #             t[j] = None
+        #             flag = 1          #if matches
+        #             break
+        #     if flag == 0:
+        #         return False
+        # return True
