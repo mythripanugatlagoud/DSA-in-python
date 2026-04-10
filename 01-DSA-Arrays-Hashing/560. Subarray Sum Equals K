@@ -1,14 +1,32 @@
-class Solution(object):
+class Solution:
     def subarraySum(self, nums, k):
         count = 0
-        sums = 0
-        d = dict()
-        d[0] = 1
+        curr_sum = 0
+        prefix_map = {0: 1}
         
-        for i in range(len(nums)):
-            sums += nums[i]
-            count += d.get(sums-k,0) 
-            d[sums] = d.get(sums,0) + 1
+        for num in nums:
+            curr_sum += num
+            
+            if curr_sum - k in prefix_map:
+                count += prefix_map[curr_sum - k]
+            
+            prefix_map[curr_sum] = prefix_map.get(curr_sum, 0) + 1
         
-        return(count)
+        return count
+# prefix+hashmap approach
+
+# brute force algo 
+# class Solution(object):
+#     def subarraySum(self, nums, k):
+#         count = 0
+#         n = len(nums)
+
+#         for i in range(n):
+#             current_sum = 0
+#             for j in range(i, n):
+#                 current_sum += nums[j]
+#                 if current_sum == k:
+#                     count += 1
+
+#         return count
         
