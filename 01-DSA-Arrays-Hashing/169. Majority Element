@@ -4,7 +4,7 @@ class Solution:
         candidate = None
         
         for num in nums:
-            if count == 0:
+            if count == 0: 
                 candidate = num
             
             if num == candidate: 
