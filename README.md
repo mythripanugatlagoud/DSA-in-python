@@ -8,7 +8,7 @@ The goal of this repository is to:
 - Track long-term learning progress clearly
 - Interview-ready with strong problem solving skills
 - Get placed in super dream company by 2026  
---- 
+---  
 # DSA Progress Tracker
 
 - [x] 01 – Python Basics
