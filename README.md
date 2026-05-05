@@ -9,7 +9,7 @@ The goal of this repository is to:
 - Interview-ready with strong problem solving skills
 - Get placed in super dream company by 2026  
 ---  
-# DSA Progress Tracker
+# DSA Progress Tracker 
 
 - [x] 01 – Python Basics
 ---
