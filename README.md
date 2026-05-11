@@ -3,7 +3,7 @@ This repository contains my **daily practice of Data Structures and Algorithms (
 
 The goal of this repository is to: 
 - Build strong fundamentals from scratch
-- Maintain daily consistency through GitHub commits   
+- Maintain daily consistency through GitHub commits     
 - Prepare step by step for technical interviews  
 - Track long-term learning progress clearly
 - Interview-ready with strong problem solving skills
