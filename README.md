@@ -6,7 +6,7 @@ The goal of this repository is to:
 - Maintain daily consistency through GitHub commits     
 - Prepare step by step for technical interviews  
 - Track long-term learning progress clearly 
-- Interview-ready with strong problem solving skills
+- Interview-ready with strong problem solving skills 
 - Get placed in super dream company by 2026  
 ---  
 # DSA Progress Tracker 
